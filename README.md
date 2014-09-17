@@ -5,7 +5,7 @@ Development-ready WordPress starter theme based on Bones, Bootstrap, and the Red
 
 ##Introduction
 
-This is a WordPress theme template that I've put together for personal and freelance projects. It uses awesome stuff like [Bootstrap](https://github.com/twbs/bootstrap), [Font Awesome](https://github.com/FortAwesome/Font-Awesome), and 
+This is a WordPress theme template that I've put together for personal and freelance projects. It uses awesome stuff like [Bootstrap](https://github.com/twbs/bootstrap), [Font Awesome](https://github.com/FortAwesome/Font-Awesome), [Bones](https://github.com/eddiemachado/bones), and [Redux Framework](https://github.com/ReduxFramework/redux-framework).
 
 ##FAQ
 <dl>
