@@ -1916,27 +1916,27 @@ if (!class_exists('Redux_Framework_sample_config')) {
 
 
 			// SOCIAL ICONS -> Setup custom links in the footer for quick links in your panel footer icons.
+			$this->args['share_icons'][] = array(
+				'url'   => 'https://github.com/jdugdown/',
+				'title' => 'jdugdown on GitHub',
+				'icon'  => 'el-icon-github'
+				//'img'   => '', // You can use icon OR img. IMG needs to be a full URL.
+			);
 			// $this->args['share_icons'][] = array(
-			// 	'url'   => 'https://github.com/ReduxFramework/ReduxFramework',
-			// 	'title' => 'Visit us on GitHub',
-			// 	'icon'  => 'el-icon-github'
-			// 	//'img'   => '', // You can use icon OR img. IMG needs to be a full URL.
+			// 	'url'   => 'https://www.facebook.com/',
+			// 	'title' => 'Like us on Facebook',
+			// 	'icon'  => 'el-icon-facebook'
 			// );
 			$this->args['share_icons'][] = array(
-				'url'   => 'https://www.facebook.com/DesignLoud',
-				'title' => 'Like us on Facebook',
-				'icon'  => 'el-icon-facebook'
-			);
-			$this->args['share_icons'][] = array(
-				'url'   => 'https://twitter.com/designloud',
-				'title' => 'Follow us on Twitter',
+				'url'   => 'https://twitter.com/jdugdown',
+				'title' => '@jdugdown on Twitter',
 				'icon'  => 'el-icon-twitter'
 			);
-			// $this->args['share_icons'][] = array(
-			// 	'url'   => 'http://www.linkedin.com/company/redux-framework',
-			// 	'title' => 'Find us on LinkedIn',
-			// 	'icon'  => 'el-icon-linkedin'
-			// );
+			$this->args['share_icons'][] = array(
+				'url'   => 'http://www.linkedin.com/pub/joshua-downey/38/b9/b99/',
+				'title' => 'Joshua Downey on LinkedIn',
+				'icon'  => 'el-icon-linkedin'
+			);
 
 			// Panel Intro text -> before the form
 			if (!isset($this->args['global_variable']) || $this->args['global_variable'] !== false) {
