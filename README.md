@@ -12,7 +12,7 @@ This is a WordPress theme template that I've put together for personal and freel
 	<dt>Can I contribute?</dt>
 	<dd>Possibly. I created this to use for personal projects but if you have something you'd really like to see added please feel free to get in touch.</dd>
 	<dt>Can I use this for...?</dt>
-	<dd>Go for it. This project is licensed under [GPL v2.0](http://www.gnu.org/licenses/gpl-2.0.txt).</dd>
+	<dd>Go for it. This project is licensed under GPL.</dd>
 </dl>
 
 ##Author
@@ -21,4 +21,4 @@ This is a WordPress theme template that I've put together for personal and freel
 - GitHub: [jdugdown](https://github.com/jdugdown)
 
 ##License
-GNU General Public License v2.0
+[GNU General Public License v2.0](http://www.gnu.org/licenses/gpl-2.0.txt)
