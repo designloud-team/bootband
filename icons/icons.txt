@@ -1,0 +1,3 @@
+Place favicons in this directory.
+
+http://realfavicongenerator.net/
