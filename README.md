@@ -3,6 +3,8 @@ bootband
 
 Development-ready WordPress starter theme.
 
+[Demo](http://bootband.developmentdoma.in/)
+
 ##Introduction
 
 This is a WordPress theme template that I've put together for personal and freelance projects. It uses awesome stuff like [Bootstrap](https://github.com/twbs/bootstrap), [Font Awesome](https://github.com/FortAwesome/Font-Awesome), [Bones](https://github.com/eddiemachado/bones), and [Redux Framework](https://github.com/ReduxFramework/redux-framework).
@@ -14,6 +16,9 @@ This is a WordPress theme template that I've put together for personal and freel
 - Removed Glyphicons
 - Added a few of Bootstrap overrides to style.css
 - Moved project to GitHub
+
+##Versioning
+I try to follow [Semantic Versioning](http://semver.org/) as much as possible.
 
 ##FAQ
 <dl>
