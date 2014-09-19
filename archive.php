@@ -4,7 +4,6 @@
 
 				<div id="main" class="col-sm-8 clearfix" role="main">
 
-					<div class="page-header">
 					<?php if (is_category()) { ?>
 						<h1 class="archive_title h2">
 							<span><?php _e("Posts Categorized:", "bootband"); ?></span> <?php single_cat_title(); ?>
@@ -30,7 +29,6 @@
 							<span><?php _e("Yearly Archives:", "bootband"); ?>:</span> <?php the_time('Y'); ?>
 						</h1>
 					<?php } ?>
-					</div>
 
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 

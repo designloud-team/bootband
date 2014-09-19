@@ -4,7 +4,7 @@
 
 				<div id="main" class="col col-lg-8 clearfix" role="main">
 
-					<div class="page-header"><h1><span><?php _e("Search Results for","bootband"); ?>:</span> <?php echo esc_attr(get_search_query()); ?></h1></div>
+					<h1><span><?php _e("Search Results for","bootband"); ?>:</span> <?php echo esc_attr(get_search_query()); ?></h1>
 
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 

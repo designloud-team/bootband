@@ -18,7 +18,7 @@ Template Name: Left Sidebar Page
 
 						<header>
 
-							<div class="page-header"><h1><?php the_title(); ?></h1></div>
+							<h1><?php the_title(); ?></h1>
 
 						</header> <!-- end article header -->
 

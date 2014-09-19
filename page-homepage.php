@@ -14,7 +14,7 @@ Template Name: Homepage
 
 					<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article">
 
-						<!-- <header>
+						<header>
 
 							<?php
 								$post_thumbnail_id = get_post_thumbnail_id();
@@ -29,7 +29,7 @@ Template Name: Homepage
 
 							</div>
 
-						</header> -->
+						</header>
 
 						<section class="row post_content">
 
