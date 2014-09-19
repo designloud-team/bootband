@@ -11,7 +11,6 @@
 							<div class="hero-unit">
 
 								<h1><?php _e("Error 404 - Not Found","bootband"); ?></h1>
-								<p><?php _e("The page or resource you were looking for could not be found.","bootband"); ?></p>
 
 							</div>
 
@@ -19,6 +18,7 @@
 
 						<section class="post_content">
 
+							<p><?php _e("The page or resource you were looking for could not be found.","bootband"); ?></p>
 							<p><?php _e("Search using the form below or go back to the <a href=" . get_bloginfo('url') . ">homepage</a>.","bootband"); ?></p>
 
 							<div class="row">

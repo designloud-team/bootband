@@ -52,7 +52,7 @@ http://digwp.com/2010/10/customize-wordpress-dashboard/
 */
 
 // RSS Dashboard Widget 
-function wp_bootstrap_rss_dashboard_widget() {
+function bootband_rss_dashboard_widget() {
 	if(function_exists('fetch_feed')) {
 		include_once(ABSPATH . WPINC . '/feed.php');               // include the required file
 		$feed = fetch_feed('http://themble.com/feed/rss/');        // specify the source feed
@@ -74,8 +74,8 @@ function wp_bootstrap_rss_dashboard_widget() {
 }
 
 // calling all custom dashboard widgets
-function wp_bootstrap_custom_dashboard_widgets() {
-	wp_add_dashboard_widget('wp_bootstrap_rss_dashboard_widget', 'Recently on Themble (Customize on admin.php)', 'wp_bootstrap_rss_dashboard_widget');
+function bootband_custom_dashboard_widgets() {
+	wp_add_dashboard_widget('bootband_rss_dashboard_widget', 'Recently on Themble (Customize on admin.php)', 'bootband_rss_dashboard_widget');
 	/*
 	Be sure to drop any other created Dashboard Widgets 
 	in this function and they will all load.
@@ -86,27 +86,27 @@ function wp_bootstrap_custom_dashboard_widgets() {
 // removing the dashboard widgets
 add_action('admin_menu', 'disable_default_dashboard_widgets');
 // adding any custom widgets
-add_action('wp_dashboard_setup', 'wp_bootstrap_custom_dashboard_widgets');
+add_action('wp_dashboard_setup', 'bootband_custom_dashboard_widgets');
 
 
 /************* CUSTOM LOGIN PAGE *****************/
 
 // calling your own login css so you can style it 
-// function wp_bootstrap_login_css() {
+// function bootband_login_css() {
 // 	/* i couldn't get wp_enqueue_style to work :( */
 // 	echo '<link rel="stylesheet" href="' . get_stylesheet_directory_uri() . '/library/css/login.css">';
 // }
 
 // // changing the logo link from wordpress.org to your site 
-// function wp_bootstrap_login_url() { echo bloginfo('url'); }
+// function bootband_login_url() { echo bloginfo('url'); }
 
 // // changing the alt text on the logo to show your site name 
-// function wp_bootstrap_login_title() { echo get_option('blogname'); }
+// function bootband_login_title() { echo get_option('blogname'); }
 
 // // calling it only on the login page
-// add_action('login_head', 'wp_bootstrap_login_css');
-// add_filter('login_headerurl', 'wp_bootstrap_login_url');
-// add_filter('login_headertitle', 'wp_bootstrap_login_title');
+// add_action('login_head', 'bootband_login_css');
+// add_filter('login_headerurl', 'bootband_login_url');
+// add_filter('login_headertitle', 'bootband_login_title');
 
 
 /************* CUSTOMIZE ADMIN *******************/
@@ -119,10 +119,10 @@ you like.
 */
 
 // Custom Backend Footer
-function wp_bootstrap_custom_admin_footer() {
+function bootband_custom_admin_footer() {
 	echo '<span id="footer-thankyou">Developed by <a href="http://yoursite.com" target="_blank">Your Site Name</a></span>. Built using <a href="http://themble.com/bones" target="_blank">Bones</a>.';
 }
 
 // adding it to the admin area
-add_filter('admin_footer_text', 'wp_bootstrap_custom_admin_footer');
+add_filter('admin_footer_text', 'bootband_custom_admin_footer');
 

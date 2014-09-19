@@ -11,12 +11,17 @@
 					</div>
 
 					<nav class="clearfix">
-						<?php wp_bootstrap_footer_links(); // Adjust using Menus in Wordpress Admin ?>
+						<?php bootband_footer_links(); // Adjust using Menus in Wordpress Admin ?>
 					</nav>
 
-					<p class="pull-right">Developed by <a href="http://joshuad.me" target="_blank">joshuad.me</a></p>
-
-					<p class="attribution">&copy; <?php bloginfo('name'); ?></p>
+					<div class="row">
+						<div class="col-md-6 col-md-push-6">
+							<p class="footer-right">Developed by <a href="http://joshuad.me" target="_blank">joshuad.me</a></p>
+						</div>
+						<div class="col-md-6 col-md-pull-6">
+							<p class="footer-left">&copy; <?php bloginfo('name'); ?></p>
+						</div>
+					</div>
 
 				</div> <!-- end #inner-footer -->
 

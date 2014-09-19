@@ -21,7 +21,7 @@
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
 		<!-- favicons -->
-		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/icons/favicon.ico">
+		<!-- <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/icons/favicon.ico">
 		<link rel="apple-touch-icon" sizes="57x57" href="<?php echo get_stylesheet_directory_uri(); ?>/icons/apple-touch-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_stylesheet_directory_uri(); ?>/icons/apple-touch-icon-114x114.png">
 		<link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_stylesheet_directory_uri(); ?>/icons/apple-touch-icon-72x72.png">
@@ -38,7 +38,7 @@
 		<meta name="msapplication-TileColor" content="#2d89ef">
 		<meta name="msapplication-TileImage" content="<?php echo get_stylesheet_directory_uri(); ?>/icons/mstile-144x144.png">
 		<meta name="msapplication-config" content="<?php echo get_stylesheet_directory_uri(); ?>/icons/browserconfig.xml">
-		<!-- <meta name="application-name" content="DesignLoud"> -->
+		<meta name="application-name" content="Bootband"> -->
 
 		<!-- font awesome -->
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
@@ -67,15 +67,13 @@
 					</div>
 
 					<div class="collapse navbar-collapse navbar-responsive-collapse">
-						<?php wp_bootstrap_main_nav(); // Adjust using Menus in Wordpress Admin ?>
+						<?php bootband_main_nav(); // Adjust using Menus in Wordpress Admin ?>
 
-						<?php //if(of_get_option('search_bar', '1')) {?>
 						<form class="navbar-form navbar-right" role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
 							<div class="form-group">
 								<input name="s" id="s" type="text" class="search-query form-control" autocomplete="off" placeholder="<?php _e('Search','bootband'); ?>" data-provide="typeahead" data-items="4" data-source='<?php echo $typeahead_data; ?>'>
 							</div>
 						</form>
-						<?php //} ?>
 					</div>
 
 				</div> <!-- end .container -->
