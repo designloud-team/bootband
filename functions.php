@@ -454,6 +454,12 @@ if( !function_exists("theme_styles") ) {
 		// Theme CSS
 		wp_register_style( 'bb-style', get_stylesheet_directory_uri() . '/style.css', array(), '1.0', 'all' );
 		wp_enqueue_style( 'bb-style' );
+
+		if (is_single()) {
+			// Comments CSS
+			wp_register_style( 'comments-style', get_stylesheet_directory_uri() . '/library/css/comments.css', array(), '1.0', 'all' );
+			wp_enqueue_style( 'comments-style' );
+		}
 	}
 }
 add_action( 'wp_enqueue_scripts', 'theme_styles' );
