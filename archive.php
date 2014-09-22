@@ -22,11 +22,11 @@
 						</h1>
 					<?php } elseif (is_month()) { ?>
 						<h1 class="archive_title h2">
-							<span><?php _e("Monthly Archives:", "bootband"); ?>:</span> <?php the_time('F Y'); ?>
+							<span><?php _e("Monthly Archives:", "bootband"); ?></span> <?php the_time('F Y'); ?>
 						</h1>
 					<?php } elseif (is_year()) { ?>
 						<h1 class="archive_title h2">
-							<span><?php _e("Yearly Archives:", "bootband"); ?>:</span> <?php the_time('Y'); ?>
+							<span><?php _e("Yearly Archives:", "bootband"); ?></span> <?php the_time('Y'); ?>
 						</h1>
 					<?php } ?>
 

@@ -8,9 +8,9 @@
 
 						<!-- This content shows up if there are no widgets defined in the backend. -->
 
-						<div class="alert alert-message">
+						<div class="alert alert-info">
 
-							<p><?php _e("Please activate some Widgets","bootband"); ?>.</p>
+							<p><?php _e("Please activate some widgets","bootband"); ?>.</p>
 
 						</div>
 

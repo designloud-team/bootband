@@ -3,7 +3,6 @@
 // shortcodes
 
 // Gallery shortcode
-
 // remove the standard shortcode
 // remove_shortcode('gallery', 'gallery_shortcode');
 // add_shortcode('gallery', 'gallery_shortcode_tbs');
@@ -28,7 +27,6 @@
 
 // 	return $output;
 // }
-
 
 
 // Buttons
@@ -60,8 +58,8 @@ function buttons( $atts, $content = null ) {
 
 	return $output;
 }
-
 add_shortcode('button', 'buttons');
+
 
 // Alerts
 function alerts( $atts, $content = null ) {
@@ -79,8 +77,8 @@ function alerts( $atts, $content = null ) {
 
 	return $output;
 }
-
 add_shortcode('alert', 'alerts');
+
 
 // Block Messages
 function block_messages( $atts, $content = null ) {
@@ -98,8 +96,8 @@ function block_messages( $atts, $content = null ) {
 
 	return $output;
 }
-
 add_shortcode('block-message', 'block_messages');
+
 
 // Block Messages
 function blockquotes( $atts, $content = null ) {
@@ -125,9 +123,7 @@ function blockquotes( $atts, $content = null ) {
 
 	return $output;
 }
-
 add_shortcode('blockquote', 'blockquotes');
-
 
 
 

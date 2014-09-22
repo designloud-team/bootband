@@ -10,6 +10,10 @@ Development-ready WordPress starter theme.
 This is a WordPress theme template that I've put together for personal and freelance projects. It uses awesome stuff like [Bootstrap](https://github.com/twbs/bootstrap), [Font Awesome](https://github.com/FortAwesome/Font-Awesome), [Bones](https://github.com/eddiemachado/bones), and [Redux Framework](https://github.com/ReduxFramework/redux-framework).
 
 ##Changelog
+###2.0.1
+- Moved comment styles into library/css/comments.css, which is conditionally enqueued on single posts only
+- Fixed minor grammatical errors
+
 ###2.0.0
 - Updated Bootstrap to v3.2.0
 - Removed a bunch of unnecessary or redundant files.
