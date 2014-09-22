@@ -23,7 +23,7 @@ require get_template_directory() . '/admin/admin-init.php';
 // Custom Backend Footer
 add_filter('admin_footer_text', 'bootband_custom_admin_footer');
 function bootband_custom_admin_footer() {
-	echo '<span id="footer-thankyou">Developed by <a href="http://joshuad.me" target="_blank">Joshua Downey</a></span>.';
+	echo '<span id="footer-thankyou">Developed by <a href="http://designloud.com" target="_blank">DesignLoud</a></span>.';
 }
 
 // adding it to the admin area
@@ -539,7 +539,7 @@ function my_login_logo_url() {
 add_filter( 'login_headerurl', 'my_login_logo_url' );
 
 function my_login_logo_url_title() {
-	return 'Developed by Joshua Downey';
+	return 'Developed by DesignLoud';
 }
 add_filter( 'login_headertitle', 'my_login_logo_url_title' );
 
