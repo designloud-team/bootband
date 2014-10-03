@@ -16,7 +16,7 @@
 
 					<div class="row">
 						<div class="col-md-6 col-md-push-6">
-							<p class="footer-right">Developed by <a href="http://joshuad.me" target="_blank">joshuad.me</a></p>
+							<p class="footer-right">Developed by <a href="http://designloud.com" target="_blank">DesignLoud</a></p>
 						</div>
 						<div class="col-md-6 col-md-pull-6">
 							<p class="footer-left">&copy; <?php bloginfo('name'); ?></p>
